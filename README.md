@@ -38,3 +38,12 @@ taskmgr
 
 ```
 
+## Prikazy na Terraform
+```
+terraform init
+terraform apply -auto-approve
+```
+a kdyz to chces smazat <br>
+```
+terraform destroy
+```
