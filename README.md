@@ -37,8 +37,8 @@ terraform destroy
 ```
 
 
-
-Je zde krome jinych prikazu - vytvoreny soubor test.txt  prez PowerShell a nasledne vyvolany  
+# Na serveru
+Krome jinych prikazu - vytvoreny soubor test.txt  prez PowerShell a nasledne vyvolany <br>
 
 ```
 New-Item -Path "C:\test.txt" -ItemType File
