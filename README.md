@@ -10,6 +10,34 @@ Podminky realizace:<br>
 
 Tenhle je projekt je o nastartovani windows server na pomoci Terraformu na EC2 -  a pro zmirneni nakladu je
 realizovan prez spot.<br>
+
+## Struktura projektu 
+ ```
+
+├── main.tf                # Terraform pro start serveru
+├── README.md              # Popis projektu
+
+```
+
+# Co je soucasti kodu 
+✔ EC2 Windows Server 2022 (Spot Instance)
+✔ Otevřený port 3389 (RDP) pro připojení
+✔ Security Group pro povolení RDP přístupu
+
+
+
+## Prikazy na Terraform
+```
+terraform init
+terraform apply -auto-approve
+```
+a kdyz to chces smazat <br>
+```
+terraform destroy
+```
+
+
+
 Je zde krome jinych prikazu - vytvoreny soubor test.txt  prez PowerShell a nasledne vyvolany  
 
 ```
@@ -30,20 +58,4 @@ taskmgr
 ![task_manager](https://github.com/user-attachments/assets/3914b878-f226-4c55-bb11-c5da3d31ee26)
 
 
-## Struktura projektu 
- ```
 
-├── main.tf                # Terraform pro start serveru
-├── README.md              # Popis projektu
-
-```
-
-## Prikazy na Terraform
-```
-terraform init
-terraform apply -auto-approve
-```
-a kdyz to chces smazat <br>
-```
-terraform destroy
-```
