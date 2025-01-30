@@ -26,8 +26,15 @@ davat  prez PowerShell v nasem pripade:
 taskmgr
 ```
 
+
 ![task_manager](https://github.com/user-attachments/assets/3914b878-f226-4c55-bb11-c5da3d31ee26)
 
 
+## Struktura projektu 
+ ```
 
+├── main.tf                # Terraform pro start serveru
+├── README.md              # Popis projektu
+
+```
 
