@@ -10,6 +10,12 @@ Podminky realizace:<br>
 
 Tenhle je projekt je o nastartovani windows server na pomoci Terraformu na EC2 -  a pro zmirneni nakladu je
 realizovan prez spot.<br>
+Je zde krome jinych prikazu - vytvoreny soubor test.txt  prez PowerShell a nasledne vyvolany  
+
+```
+New-Item -Path "C:\test.txt" -ItemType File
+Set-Content -Path "C:\test.txt" -Value "Hello from Windows Server in AWS!"
+```
 
 ![super_hallo_from_server](https://github.com/user-attachments/assets/d2f90320-abee-45dc-8b32-7e770674d1e1)
 
